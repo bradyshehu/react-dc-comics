@@ -3,7 +3,7 @@ import MainContent from "./components/MainContent";
 import MainLinks from "./components/MainLinks";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <>
       <Header />
@@ -13,4 +13,3 @@ function App() {
     </>
   );
 }
-export default App;

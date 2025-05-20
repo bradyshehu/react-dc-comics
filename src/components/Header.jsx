@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h1>Ciao sono header </h1>;
+  return (
+    <header>
+      <img src="/img/dc-logo.png" alt="DC Logo" />
+    </header>
+  );
 }
