@@ -1,9 +1,29 @@
-.container {
-  max-width: 900px;
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
-#header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+#page-header {
+  padding: 1rem 0rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-header ul li {
+  list-style-type: none;
+  padding-left: 1rem;
 }
