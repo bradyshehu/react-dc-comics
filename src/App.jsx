@@ -1,7 +1,6 @@
-import Header from "./components/Layout/Header";
-import Main from "./components/Layout/Main";
-import MainLinks from "./components/Layout/MainLinks";
-import Footer from "./components/Layout/Footer";
+import Header from "./components/layout/Header";
+import Main from "./components/layout/Main";
+import Footer from "./components/layout/Footer";
 
 export default function App() {
   return (

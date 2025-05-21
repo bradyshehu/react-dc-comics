@@ -1,6 +1,5 @@
 import MainLinks from "./MainLinks";
 import Alert from "../ui/Alert";
-
 export default function Main() {
   return (
     <main id="page-main-content">
