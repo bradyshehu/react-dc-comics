@@ -6,7 +6,10 @@
 }
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
 }
 
 #page-header {
@@ -23,7 +26,45 @@ a {
   align-items: center;
 }
 
-#page-header ul li {
-  list-style-type: none;
+#page-header ul li.nav-link {
   padding-left: 1rem;
+  text-transform: uppercase;
+}
+#page-header ul li.nav-link.active {
+  color: #0282f9;
+}
+
+/* MAIN */
+
+#content {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 3rem;
+}
+
+section#merch {
+  background-color: #0282f9;
+}
+
+/* ALERT */
+
+.alert {
+  padding: 1rem;
+  border: 1px solid white;
+  margin: auto;
+  border-radius: 1.5rem;
+  color: white;
+  background-color: blue;
+}
+
+.alert.alert-info {
+  background-color: blue;
+}
+
+.alert.alert-danger {
+  background-color: red;
+}
+
+.alert.alert-success {
+  background-color: green;
 }
